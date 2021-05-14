@@ -45,6 +45,7 @@ ul{
     background-color: #F8F8F8;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 .main_header_content{
     display: flex;
@@ -227,10 +228,12 @@ ul{
     background-position: center bottom;
 }
 .bg_img_book{
-    background-image: url(./img/bg-book.png);
+    /* background-image: url(./img/bg-book.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #8B7736;
+    opacity: 80%;
 }
 .home_nav_content {
     display: flex;
