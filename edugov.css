@@ -227,13 +227,13 @@ ul{
     background-image: url(./img/main_nav_bg_img.png);
     background-position: center bottom;
 }
-.bg_img_book{
-    /* background-image: url(./img/bg-book.png);
+.bg_img_book_service{
+    background-image: url(./img/bg-book.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; */
-    background-color: #8B7736;
-    opacity: 80%;
+    background-size: cover;
+    /* background-color: #8B7736;
+    opacity: 80%; */
 }
 .home_nav_content {
     display: flex;
