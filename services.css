@@ -78,11 +78,11 @@ ul{
 .main_header_link:hover{
     color: #756324;
 }
-.main_header_menu{
-    padding-left: 0px;
-}
 .main_header_link:last-child {
     padding-right: 0px;
+}
+.main_header_menu{
+    padding-left: 0px;
 }
 .main_header_gallery{
     padding-right: 25px;
@@ -158,67 +158,86 @@ ul{
 
 
 
-/* section welcome bashlayir */
 
-.section_welcome{
+/*  breadcumb bashlayir */
+
+.breadcrumb{
     background-color: #F8F8F8;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    opacity: 100%;
 }
-.section_welcome_content_header{
-    /* display: flex;
-    justify-content: center;
+.breadcrumb_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column; */
-    color: #8B7736;
-    text-align: center;
-    font-weight: lighter;
-    opacity: 100%;
+    padding: 15px 0px;
 }
-.section_welcome_content_header--head{
-    color: #8B7736;
-    opacity: 100%;
-    font-size: 36px;
-    line-height: 49px;
-    font-weight: bold;
-    padding: 23px 20px 20px 20px;
-}
-.section_welcome_content_search{
-    margin-top: 10px;
-    margin-bottom: 40px;
-    width: 100%;
-}
-.section_content_search{
+.breadcrumb_navbar{
     display: flex;
+    width: calc(100% - 330px);
+}
+.breadcrumb_navbar--item{
+    padding: 10px 10px;
+    position: relative;
+}
+.breadcrumb_navbar--item:first-child{
+    padding-left: 0px;
+}
+.breadcrumb_navbar--item a {
+    color: #C0B790;
+    opacity: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.breadcrumb_navbar--item:last-child a {
+    color: #8B7736;
+    
+}
+.i-right{
+    width: 7px;
+    height: 7px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    display: inline-block;
+    border-right: 3px solid #C0B790;
+    border-bottom: 3px solid #C0B790;
+    transform: rotate(
+-45deg
+);
+}
+
+
+.breadcrumb_content_search{
+    display: flex;
+    
     justify-content: flex-start;
 }
-.section_content_search--input{
+.breadcrumb_content_search--input{
     width: 100%;
-    border: 1px solid #C0B790;
-    padding: 13px 10px 13px 25px;
+    border: none;
+    padding: 5px 20px 5px 20px;
     outline: none;
-    font-size: 20px;
+    font-size: 16px;
 }
-.section_content_search--input::placeholder{
-    font-size: 20px;
+.breadcrumb_content_search--input::placeholder{
+    font-size: 12px;
+    line-height: 16px;
     font-style: italic;
     color: #C0B790;
 }
-.section_content_search--btn{
-    padding: 12px;
+.breadcrumb_content_search--btn{
+    padding: 8px;
     border: 1px solid #C0B790;
     cursor: pointer;
     color: #FFFFFF;
     background-color: #C0B790;
     border-left: none;
 }
-.fa-search{
-    font-size: 22px;
+.breadcrumb_search{
+    font-size: 16px;
 }
-/* section welcome qurtarir */
-
-
+/* breadcumb qurtarir */
 
 
 
@@ -226,11 +245,7 @@ ul{
 
 /* home nav bashlayir */
 
-.bg_img_home{
-    background-image: url(./img/main_nav_bg_img.png);
-    background-position: center bottom;
-}
-.quick_service{
+.key_service{
     background-image: url(./img/bg-book.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -274,6 +289,7 @@ ul{
 .home_nav_content_item_desc p{
     line-height: 19px;
     font-size: 14px;
+    padding-right: 5px;
     font-weight: lighter;
     overflow: hidden;
     display: -webkit-box;
@@ -314,233 +330,65 @@ ul{
     font-weight: bold;
     line-height: 41px;
 }
+
+
+.other_service{
+    background-color: #FFFFFF;
+    opacity: 100%;
+}
+.other_service_head{
+    color: #8B7736;
+    opacity: 100%;
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.other_service_item_arrow{
+    background-color: #EEEEEE;
+    opacity: 100%;
+}
+.more_service{
+    padding-bottom: 55px;
+}
+.more_service_head{
+    color: #8B7736;
+    opacity: 100%;
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.more_service_body a{
+    color: #4B4545;
+    opacity: 100%;
+    display: block;
+    text-decoration: underline;
+    padding: 10px 0px;
+    font-size: 18px;
+    line-height: 24px;
+}
 /* home nav qurtarir */
 
 
 
 
-/* news bashlayir */
-.news_content{
-    display: flex;
-    padding: 50px 0px;
-}
-.news_content_left{
-    flex: 0 0 60%;
-}
-.news_content_right{
-    flex: 0 0 40%;
-}
-.news_content_body--head{
-    color: #8B7736;
-    font-size: 30px;
-    line-height: 41px;
-    font-weight: bold;
-    padding-bottom: 30px;
-}
-.news_content_body_main{
-    padding-bottom: 40px;
-}
-.news_content_body_main_text{
-    color: #4B4545;
-    opacity: 100%;
-    font-size: 18px;
-    line-height: 21px;
-}
-.news_content_body_main_text:hover{
-    color: #8B7736;
-}
-small{
-    color: #888181;
-    opacity: 100%;
-    font-size: 14px;
-    display: block;
-    line-height: 19px;
-}
-.news_content_left_body{
-    width: 90%;
-}
-.btn{
-    display: inline-block;
-    border: 1px solid #8B7736;
-    padding: 10px 15px 10px 10px;
-}
-.btn:hover{
-    color: #fff;
-    background-color: #c0b790;
-}
-
-.i-right{
-    width: 10px;
-    height: 10px;
-    margin-left: 20px;
-    margin-bottom: 2px;
-    display: inline-block;
-    border-right: 2px solid #8B7736;
-    border-bottom: 2px solid #8B7736;
-    transform: rotate(
--45deg
-);
-}
-/* news qurtarir */
 
 
 
 
 
-/* social feed bashlayir */
-
-.social_feed{
-    background-color: #F8F8F8;
-}
-.social_feed_header{
-    display: flex;
-    justify-content: space-between;
-}
-.social_feed_header{
-    padding: 35px 0px;
-}
-.social_feed_header_title {
-    font-size: 30px;
-    line-height: 41px;
-}
-.social_feed_header_links a{
-    padding-left: 10px;
-}
-.social_feed_header_links {
-    display: flex;
-}
-.social_feed_header_links_item{
-    margin-left: 10px;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    padding: 4px 10px;
-    background-color: #8B7736;
-}
-.social_feed_header_links a:hover{
-    background-color: #826f30;
-}
-.social-links{
-    color: white;
-    font-size: 17px;
-}
-
-.social_feed_content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 80px;
-}
-.social_feed_content_item{
-    flex: 0 0 33.3%;
-    margin-right: -10px;
-    margin-left: -10px;
-}
-.social_feed_content_item_body{
-    margin: 0px 10px;
-}
-.social_feed_content_item p{
-    color: #4B4545;
-    padding: 5px 0px;
-    opacity: 100%;
-    line-height: 24px;
-    font-size: 18px;
-}
-.fa-facebook{
-    font-weight: 400;
-    background-color: white;
-    color: #012266;
-    font-size: 21px;
-}
-.social_feed_content_icon{
-    font-size: 11px;
-    border-radius: 50%;
-    padding: 5px;
-    margin-right: 8px;
-    background-color: #012266;
-    color: white;
-}
-.social_feed_content_item a {
-    color: #082145;
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: lighter;
-}
-/* social feed qurtarir */
 
 
 
 
-/* more resources bashlayir */
 
-/* .more_resources{
-  
-} */
-.more_resources_header{
-    display: flex;
-    justify-content: space-between;
-}
-.more_resources_header{
-    padding-top: 30px;
-}
-.more_resources_header_title {
-    font-size: 30px;
-    line-height: 41px;
-}
 
-.more_resources_content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 30px;
-}
-.more_resources_content_item{
-    flex: 0 0 33.3%;
-    margin-right: -10px;
-    margin-left: -10px;
-    margin-top: 30px;
-}
-.more_resources_content_item_body{
-    margin: 0px 10px;
-    display: block;
-    height: 100%;
-    background-color: #F8F8F8;
-    opacity: 100%;
-    transition: all 0.2s linear;
-}
-.more_resources_content_item_body:hover{
-    background-color:#ebe8e8;
 
-}
 
-.more_resources_content_item_body_desc {
-    color: #4B4545;
-    font-size: 20px;
-    line-height: 28px;
-    opacity: 100%;
-    font-weight: bold;
-    padding: 20px 20px 5px 20px;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-}
-.more_resources_content_item_body_link {
-    color: #8B7736;
-    font-size: 16px;
-    line-height: 21px;
-    opacity: 100%;
-    font-weight: lighter;
-    padding: 0px 0px 20px 20px;
-}
-.more_resources_footer{
-    padding-bottom: 70px;
-}
 
-/* more resources qurtarir */
+
+
 
 
 
@@ -575,9 +423,18 @@ small{
     padding: 3px 0px 14px 0px;
     opacity: 80%;
 }
+.section_content_search{
+    display: flex;
+    justify-content: flex-start;
+}
 .footer_search--input{
     border: 1px solid #4B4545;
     opacity: 80%;
+    width: 100%;
+    border: 1px solid #C0B790;
+    padding: 13px 10px 13px 25px;
+    outline: none;
+    font-size: 20px;
 }
 .footer_search--input::placeholder{
     color: #C9C9C9;
@@ -590,6 +447,13 @@ small{
     background-color: #4B4545;
     border: 1px solid #4B4545;
     opacity: 100%;
+    padding: 12px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border-left: none;
+}
+.footer_fa-search {
+    font-size: 22px;
 }
 .contact {
     padding: 30px 0px;
@@ -633,6 +497,7 @@ small{
     padding: 3px 0px;
 }
 .footer_i-right{
+    border-color: #4B4545;
     margin-left: 10px;
     width: 10px;
     height: 10px;
@@ -665,6 +530,9 @@ small{
     opacity: 100%;
     font-weight: lighter;
 }
+.footer_bottom_right_body{
+    display: flex;
+}
 .footer_links{
     background-color: #4B4545;
     width: 25px;
@@ -676,10 +544,9 @@ small{
     margin-left: 10px;
     display: flex;
 }
-.footer_links:hover{
-    background-color:none ;
-}
 .footer_links i{
     font-size: 15px;
+    color: #FFFFFF;
 }
+
 /* footer qurtarir */
