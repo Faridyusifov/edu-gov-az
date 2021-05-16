@@ -340,6 +340,9 @@ ul{
 .news_content_body_main{
     padding-bottom: 40px;
 }
+.news_content_body_main div{
+    padding: 10px 0px;
+}
 .news_content_body_main_text{
     color: #4B4545;
     opacity: 100%;
@@ -431,23 +434,28 @@ small{
 .social_feed_content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-bottom: 80px;
 }
 .social_feed_content_item{
     flex: 0 0 33.3%;
-    margin-right: -10px;
-    margin-left: -10px;
+    padding-right: 10px;
+    /* margin-right: -10px;
+    margin-left: -10px; */
 }
-.social_feed_content_item_body{
+/* .social_feed_content_item_body{
     margin: 0px 10px;
-}
+} */
 .social_feed_content_item p{
     color: #4B4545;
     padding: 5px 0px;
     opacity: 100%;
     line-height: 24px;
     font-size: 18px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .fa-facebook{
     font-weight: 400;
