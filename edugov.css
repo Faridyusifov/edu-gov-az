@@ -690,4 +690,9 @@ small{
 .footer_links i{
     font-size: 15px;
 }
+
+
+.footer_bottom_right_body{
+    display: flex;
+}
 /* footer qurtarir */
