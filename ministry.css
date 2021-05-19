@@ -274,12 +274,12 @@ small{
     color: inherit;
 }
 
-.about_ministry_content_links{
+.content_links{
     padding: 50px 0px;
     display: flex;
     flex-wrap: wrap;
 }
-.ministry_btn{
+.content_btn{
     background-color: #F8F8F8;
     opacity: 100%;
     font-weight: bold;
@@ -292,7 +292,7 @@ small{
     padding: 20px;
     margin: 10px 30px 10px 0px;
 }
-.ministry_i-right{
+.content_i-right{
     width: 10px;
     height: 10px;
     right: 25px;
@@ -468,12 +468,12 @@ small{
     color: inherit;
 }
 
-.provision_ministry_content_links{
+.content_links{
     padding: 50px 0px;
     display: flex;
     flex-wrap: wrap;
 }
-.ministry_btn{
+.content_btn{
     background-color: #F8F8F8;
     opacity: 100%;
     font-weight: bold;

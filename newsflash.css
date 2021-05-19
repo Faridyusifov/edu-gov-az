@@ -251,11 +251,55 @@ ul{
 
 .news_article_content {
     display: flex;
-    /* justify-content: space-between; */
-    /* height: 500px; */
+    flex-wrap: wrap;
+    padding: 60px 0px;
 }
 .news_article_content_left {
-    margin-right: 20px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.news_article_content_left_item{
+    height: 100%;
+}
+.news_article_content_left_item_body{
+    height: 100%;
+    background-color: #EEEEEE;
+}
+.news_article_content_left_item_body--img {
+    background: #4B4545;
+    height: 340px;
+    color: #EEEEEE;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news_article_content_left_item_body--title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #4B4545;
+    opacity: 100%;
+    padding: 10px;
+    font-weight: bold;
+}
+.news_article_content_left_item_body--subtitle {
+    font-size: 14px;
+    line-height: 19px;
+    color: #4B4545;
+    opacity: 100%;
+    font-weight: lighter;
+    padding: 0px 10px;
+}
+.news_article_content_left_item_body--date{
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin: 10px;
+    color: #8B7736;
+    border-left: 3px solid #8B7736;
 }
 
 
@@ -263,13 +307,56 @@ ul{
 
 
 .news_article_content_right {
-    width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    justify-content: space-between;
+    padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 .news_article_content_right_item {
     flex: 0 0 50%;
+    margin-bottom: 20px;
 }
+.news_article_content_right_item_body {
+    margin: 0px 10px;
+    background: #EEEEEE;
+    height: 100%;
+}
+.news_article_content_right_item_body--img {
+    background: #4B4545;
+    height: 170px;
+    color: #EEEEEE;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news_article_content_right_item_body--title {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #4B4545;
+    padding: 10px;
+}
+.news_article_content_right_item_body--date {
+    color: #8B7736;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin: 10px;
+    border-left: 3px solid #8B7736;
+}
+
+
+
+
+
+
+
 
 /* news article qurtarir */
 
