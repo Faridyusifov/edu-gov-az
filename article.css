@@ -417,6 +417,7 @@ ul{
 .content_i-right {
     width: 10px;
     height: 10px;
+    top: 26px;
     right: 25px;
     margin-bottom: 2px;
     position: absolute;

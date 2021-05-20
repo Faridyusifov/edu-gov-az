@@ -158,7 +158,6 @@ ul{
 
 
 
-
 /*  breadcumb bashlayir */
 
 .breadcrumb{
@@ -242,6 +241,8 @@ ul{
 
 
 
+
+
 /* landing page bashlayir */
 
 .page_content {
@@ -254,23 +255,38 @@ ul{
     flex: 0 0 60%;
     max-width: 60%;
 }
-.page_content_left_body h1 {
+
+.contact{
+    padding-bottom: 60px;
+    flex: 0 0 50%;
+}
+.contact_header{
+    color: #8B7736;
     font-size: 30px;
     line-height: 41px;
     font-weight: bold;
+    padding-bottom: 40px;
+
 }
-.page_content_left_body p {
-    font-size: 18px;
-    line-height: 24px;
+.contact_content_item {
+    border-top: 1px solid #C0B790;
+    display: flex;
+    padding: 14px 0px;
+    align-items: center;
+}
+.contact_content_item p {
+    padding: 0px;
+    width: 30%;
     color: #4B4545;
-    padding: 30px 0px;
+    font-size: 20px;
+    line-height: 27px;
 }
-.page_content_left_body b {
-    color: #8B7736;
-    display: block;
-    font-size: 18px;
-    padding: 5px 0px 20px 0px;
-    line-height: 24px;
+.contact_content_item b {
+    padding: 0px;
+    width: 70%;
+    color: #4B4545;
+    font-size: 20px;
+    line-height: 27px;
 }
 .promotion {
     background: #F8F8F8;
@@ -293,18 +309,18 @@ ul{
     color: #4B4545;
     padding-bottom: 20px;
 }
-
-.content_links {
-    padding: 20px 0px;
+.visit_day {
+    display: flex;
 }
-.content_links_item {
-    display: block;
+.visit_day_body {
+    flex: 0 0 50%;
+    padding-right: 40px;
+}
+.visit_day_body p {
     color: #4B4545;
     font-size: 18px;
+    padding-top: 26px;
     line-height: 24px;
-    font-weight: bold;
-    text-decoration: underline;
-    padding: 10px 0px;
 }
 
 
@@ -321,8 +337,8 @@ ul{
     font-size: 24px;
     line-height: 33px;
     padding-left: 10px;
-    border-left: 7px solid #4B4545;
     color: #4B4545;
+    border-left: 7px solid #4B4545;
 }
 .go_to_btn{
     background-color: #F8F8F8;
@@ -336,11 +352,11 @@ ul{
     padding: 20px;
     margin-top: 20px;
 }
-.go_to ul li:last-child a{
+/* .go_to ul li:last-child a{
     background-color: #4B4545;
     color: #FFFFFF;
     opacity: 100%;
-}
+} */
 
 
 
@@ -387,7 +403,6 @@ ul{
     line-height: 16px;
 }
 .content_buttons{
-    padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
     color: #4B4545;
@@ -398,13 +413,14 @@ ul{
     opacity: 100%;
     font-weight: bold;
     display: block;
-    line-height: 16px;
-    font-size: 12px;
+    line-height: 22px;
+    font-size: 16px;
     width: 100%;
     color: inherit;
     position: relative;
     padding: 20px;
-    margin: 10px 30px 10px 0px;
+    margin: 0px 30px 10px 0px;
+    color: #4B4545;
 }
 .content_i-right {
     width: 10px;
@@ -422,6 +438,12 @@ ul{
 }
 
 /* landing page qurtarrir*/
+
+
+
+
+
+
 
 
 
@@ -488,11 +510,11 @@ ul{
 .footer_fa-search {
     font-size: 22px;
 }
-.contact {
+.footer_contact {
     padding: 30px 0px;
     
 }
-.contact a{
+.footer_contact a{
     padding-right: 30px;
     color: #4B4545;
     opacity: 1005;
