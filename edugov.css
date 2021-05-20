@@ -398,6 +398,7 @@ small{
 .social_feed_header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .social_feed_header{
     padding: 35px 0px;
