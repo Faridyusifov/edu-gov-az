@@ -241,77 +241,41 @@ ul{
 
 
 
-/* home nav bashlayir */
 
-.home_nav_content {
-    display: flex;
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.home_nav_content_item {
-    opacity: 100%;
-    margin-top: 40px;
-    flex: 0 0 25%;
-    height: 270px;
-    margin-left: -10px;
-    margin-right: -10px;
+/* album title bashlayir */
 
-}
-.dss{
+
+
+
+.header_photo{
+    height: 560px;
+    margin: 50px 0px 10px 0px;
     background-image:
     linear-gradient(to bottom , #EEEEEE00 , #00000048 , #000000BF),
     url(./img/boy-child-childhood-346796666666.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.sds{
-    background-image: linear-gradient( to bottom , #EEEEEE00 , #00000048 , #000000BF);
-}
-.home_nav_content_item_main {
-    display: block;
-    margin: 0px 10px;
-    z-index: 333;
-    border: 1px solid #8B7736;
-    color: #4B4545;
-    height: 100%;
-    overflow: hidden;
     position: relative;
-
 }
-.home_nav_content_item_main h3{
-    font-weight: bold;
-    text-align: center;
-    font-size: 14px;
-    line-height: 19px;
-    color: #4B4545;
-    padding-top: 10px;
-}
-.home_nav_content_item_body{
+.header_photo_body{
     position: absolute;
-    bottom: 16px;
-    left: 16px;
+    bottom: 26px;
+    left: 26px;
 }
-.home_nav_content_item_body_title {
+.header_photo_body_title {
+    color: #F8F8F8;
+    font-size: 30px;
+    line-height: 41px;
+}
+.header_photo_body_subtitle {
     color: #F8F8F8;
     font-size: 24px;
-    line-height: 33px;
-    /* box-shadow: 0px 3px 3px #00000029; */
-}
-.home_nav_content_item_body_subtitle {
-    color: #F8F8F8;
-    font-size: 20px;
-    line-height: 27px;
+    line-height: 32px;
     font-weight: lighter;
 }
-.home_nav_content_item_body_footer{
+.header_photo_body_footer{
     display: flex;
     padding: 10px 0px;
 }
-.home_nav_content_item_body_footer-item{
+.header_photo_body_footer-item{
     display: flex;
     align-items: center;
     color: #C0B790;
@@ -320,11 +284,38 @@ ul{
     font-weight: lighter;
     margin-right: 20px;
 }
-.home_nav_content_item_body_footer-item svg{
+.header_photo_body_footer-item svg{
     margin-right: 5px;
 }
 
 
+.main_photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_photo_item{
+    flex: 0 0 50%;
+    height: 450px;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+.main_photo_item_body{
+    margin: 0px 10px;
+    display: block;
+    height: 100%;
+    background-color: #F8F8F8;
+    opacity: 100%;
+}
+.main_photo_item:last-child .main_photo_item_body{
+    margin: 0px;
+}
+.width{
+    flex: 0 0 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 
 
@@ -346,10 +337,11 @@ ul{
     margin-top: 20px;
 }
 
-/* home nav qurtarir */
 
 
 
+
+/* album title qurtarir */
 
 
 /* footer bashlayir */
