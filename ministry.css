@@ -396,18 +396,16 @@ small{
 
 .ministry_management_content_minister_deputy {
     display: flex;
-    width: 100%;
     padding-bottom: 30px;
     padding-top: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 .ministry_management_content_ministry_deputy_item{
     opacity: 100%;
     margin-top: 40px;
     flex: 0 0 33.3%;
-    margin-left: -20px;
-    margin-right: -20px;
 }
 .ministry_management_content_ministry_deputy_item_body {
     display: flex;
@@ -548,18 +546,16 @@ small{
 }
 .home_nav_content {
     display: flex;
-    width: 100%;
     padding-bottom: 60px;
     padding-top: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 .home_nav_content_item {
     opacity: 100%;
     margin-top: 40px;
     flex: 0 0 33.3%;
-    margin-left: -20px;
-    margin-right: -20px;
 }
 .home_nav_content_item a {
     display: flex;
@@ -650,13 +646,12 @@ small{
 .more_resources_content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding-bottom: 30px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 .more_resources_content_item{
     flex: 0 0 33.3%;
-    margin-right: -10px;
-    margin-left: -10px;
     margin-top: 30px;
 }
 .more_resources_content_item_body{
