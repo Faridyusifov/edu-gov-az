@@ -1,0 +1,164 @@
+/*  responsive bashlayir  */
+
+
+@media screen and (max-width: 992px){
+    .home_nav_content_item{
+        flex: none;
+        width: 100%;
+    }
+    .home_nav_content_item a{
+    justify-content: space-between;
+    }
+
+
+
+    .news_content{
+        flex-direction: column;
+    }
+    .news_content_right{
+        margin-top: 30px;
+    }
+
+
+
+    .social_feed_content{
+        flex-direction: column;
+    }
+    .social_feed_content_item{
+        margin: 10px 0px;
+    }
+
+
+
+
+    .home_nav_content_item_desc{
+        width: 100%;
+    }
+
+
+
+    .more_resources_content{
+        flex-direction: column;
+    }
+
+
+
+
+    .footer_content{
+        flex-direction: column;
+    }
+    .footer_content_right{
+        padding-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* ministry responsive start */
+    .ministry_management_content_minister_img{
+        flex: 0 0 50%;
+    }
+    .ministry_management_content_minister_desc{
+        flex: 0 0 50%;
+    }
+    .ministry_management_content_minister_about{
+        display: none;
+    }
+    .content_links{
+        flex-direction: column;
+    }
+    .ministry_management_content_minister_deputy{
+        flex-direction: column;
+    }
+    .ministry_management_content_ministry_deputy_item_body{
+        flex-direction: row;
+    }
+    .ministry_management_content_ministry_deputy_item_img{
+        width: 50%;
+    }
+    .ministry_management_content_ministry_deputy_item_main{
+        width: 50%;
+    }
+
+    /* ministry responsive finish */
+}
+
+
+
+@media screen and (max-width: 800px){
+    .main_header_login{
+        display: none;
+    }
+    .main_header_lang{
+        display: none;
+    }
+    .header_nav_content_quote{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .header_nav_content_logo{
+        display: none;
+    }
+    .nav_item{
+        flex: none;
+    }
+    .md-logo{
+        display: block;
+        margin: 10px 0px;
+    }
+    .section_welcome_content_header--head{
+        font-size: 25px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section_welcome_content_header {
+        font-size: 15px;
+    }
+    .welcome_search{
+        width: 80%;
+    }
+
+    .social_feed_header_title{
+        display: none;
+    }
+    .social_feed_header{
+        justify-content: center;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 550px){
+    .main_header_gallery{
+        display: none;
+    }
+    .main_header_FAQ{
+        display: none;
+    }
+
+
+    .welcome_search{
+        width: 100%;
+    }
+
+    .news_content_body--head{
+        font-size: 25px;
+    }
+    .news_content_body_main_text p{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .footer_bottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_bottom_left{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/*  responsive qurtarir  */
